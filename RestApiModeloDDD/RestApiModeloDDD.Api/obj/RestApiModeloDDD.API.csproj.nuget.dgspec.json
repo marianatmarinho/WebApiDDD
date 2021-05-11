@@ -1,0 +1,430 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.API\\RestApiModeloDDD.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.API\\RestApiModeloDDD.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.API\\RestApiModeloDDD.API.csproj",
+        "projectName": "RestApiModeloDDD.API",
+        "projectPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.API\\RestApiModeloDDD.API.csproj",
+        "packagesPath": "C:\\Users\\mariana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mariana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Infra\\RestApiModeloDDD.Infra.csproj": {
+                "projectPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Infra\\RestApiModeloDDD.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj",
+        "projectName": "RestApiModeloDDD.Application",
+        "projectPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj",
+        "packagesPath": "C:\\Users\\mariana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mariana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj",
+        "projectName": "RestApiModeloDDD.Domain.Core",
+        "projectPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\mariana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mariana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain\\RestApiModeloDDD.Domain.csproj": {
+                "projectPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain\\RestApiModeloDDD.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Services\\RestApiModeloDDD.Domain.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Services\\RestApiModeloDDD.Domain.Services.csproj",
+        "projectName": "RestApiModeloDDD.Domain.Services",
+        "projectPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Services\\RestApiModeloDDD.Domain.Services.csproj",
+        "packagesPath": "C:\\Users\\mariana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mariana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain\\RestApiModeloDDD.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain\\RestApiModeloDDD.Domain.csproj",
+        "projectName": "RestApiModeloDDD.Domain",
+        "projectPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain\\RestApiModeloDDD.Domain.csproj",
+        "packagesPath": "C:\\Users\\mariana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mariana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Infra\\RestApiModeloDDD.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Infra\\RestApiModeloDDD.Infra.csproj",
+        "projectName": "RestApiModeloDDD.Infra",
+        "projectPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Infra\\RestApiModeloDDD.Infra.csproj",
+        "packagesPath": "C:\\Users\\mariana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mariana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj": {
+                "projectPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj"
+              },
+              "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj"
+              },
+              "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Services\\RestApiModeloDDD.Domain.Services.csproj": {
+                "projectPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Services\\RestApiModeloDDD.Domain.Services.csproj"
+              },
+              "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain\\RestApiModeloDDD.Domain.csproj": {
+                "projectPath": "C:\\Users\\mariana\\Desktop\\Mariana\\pessoal\\Projetos_versionados\\RestApiModeloDDD\\RestApiModeloDDD.Domain\\RestApiModeloDDD.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
